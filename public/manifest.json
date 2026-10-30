@@ -1,0 +1,30 @@
+
+{
+  "id": "dev.akira.bitchord-hires",
+  "name": "juanjob hi res",
+  "version": "1.0.0",
+  "resources": ["search", "stream"],
+  "checkValidLossless": 1,
+  "allowDownloads": 1,
+  "settings": [
+    {
+      "key": "quality",
+      "type": "select",
+      "default": "lossless",
+      "options": [
+        {"label": "Lossless", "value": "lossless"},
+        {"label": "High", "value": "high"},
+        {"label": "Low", "value": "low"}
+      ]
+    },
+    {
+      "key": "atmos",
+      "type": "select",
+      "default": "stereo",
+      "options": [
+        {"label": "Stereo", "value": "stereo"},
+        {"label": "Auto", "value": "auto"}
+      ]
+    }
+  ]
+}
